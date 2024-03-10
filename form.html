@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Form : còn gọi là biểu mẫu dùng để thu thập dữ liệu gửi lên server
+        vd : form đăng kí, đăng nhập, khảo sát v.v
+        *****
+         +attribute : thuộc tính
+          -action : địa chỉ nơi nhận dữ liệu
+          -các menthod sử dụng trong form (get/post)
+          -id (giống như cccd) chức năng(thuộc tính có giá trị bằng với giá trị của thuộc tính id trong thẻ input thì tự động focus)
+          -name để định danh cho input (lấy dữ liệu gửi lên server phải thông qua name)
+          -type (thuộc tính của ô input)
+           *type=text (thuộc tính của ô input mặc định)
+           *type=password (khi nhập sẽ ẩn thông tin)
+           *type=number (chỉ nhập số)
+           *type=checkbox (hiển thị ô chọn nhiều option)
+           *type=radio (chỉ chọn 1 trong nhiều ô)
+          -value : giá trị của ô input
+          -placeholder : gợi ý nội dung nhập
+          -disable : không tương tác đc
+         +Các thẻ hay dùng trong form 
+          -thẻ label : tiêu đề
+          -input : nhập dữ liệu, thông tin vào
+          -select-option : lựa chọn
+     -->
+     <form action="">
+        <label for="phong">email</label>
+        <input type="text" id="phong" placeholder="nhập email"> <br>
+        <label for="">password</label>
+        <input type="password"> <br>
+        <button>login</button>
+     </form>
+</body>
+</html>
